@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onVolumeUp="piu_vol" onVolumeDown="meno_vol">
+	<tabs>
+	<tab color= "blue" text="Play">
+	<row>
+		<Button icon="previous" ontap="capitolo_prima" />
+		<Button icon="stop" ontap="ferma" />
+		<Button icon="next" ontap="capitolo_dopo" />
+	</row>
+	<row>
+		<Button image="imm/plpa.png" scale="fit" ontap="play_pausa" />
+	</row>
+	<row>
+		<Button icon="vdown" ontap="meno_vol" />
+		<Button icon="vmute" ontap="mute" />
+		<Button icon="vup" ontap="piu_vol" />
+	</row>
+	<row>
+		<button text="Audio" ontap="trak_audio" />
+		<button text="Sottotitoli" ontap="trak_subs" />
+	</row>
+	</tab>
+		<tab color="blue" text="Navi">
+	<row>
+		<button icon="list" ontap="menudvd" />
+		<button color="purple" icon="up" ontap="freccia_su" />
+		<button text="Menù" ontap="menucontest" />
+	</row>
+	<row color="purple">
+		<button icon="left" ontap="freccia_sx" />
+		<button icon="select" ontap="selezione" />
+		<button icon="right" ontap="freccia_dx" />
+	</row>
+	<row>
+		<Button icon="back" ontap="indietro_esc" />
+		<Button color="purple" icon="down" ontap="freccia_giu" />
+		<Button icon="fullscreen" ontap="schermint" />
+	</row>
+	</tab>
+	<tab color="green" text="Seek">
+	<row>
+		<button Text="(--- 8 sec." ontap="seek1" />
+		<button Text="30 sec. ---)" ontap="seek2" />
+	</row>
+	<row>	
+		<button Text="(--- 2 min." ontap="seek3" />
+		<button Text="2 min. ---)" ontap="seek4" />
+	</row>
+	<row>
+		<button Text="(--- 5 min." ontap="seek5" />
+		<button Text="5 min. ---)" ontap="seek6" />
+	</row>
+	</tab>
+	
+	</tabs>
+
+
+
+
+</layout>

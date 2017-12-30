@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button color="blue" text="Risoluzione" ontap="command1" />
+	</row>
+	<row>
+		<button color="blue" icon="up" ontap="command2" />
+	</row>
+	<row>
+		<button color="green" text="ESC" ontap="command3" />
+		<button color="blue" icon="select" ontap="command4" />
+		<button color="green" icon="windows" ontap="command5" />
+	</row>
+	<row>
+		<button color="blue" icon="down" ontap="command6" />
+	</row>
+</layout>
